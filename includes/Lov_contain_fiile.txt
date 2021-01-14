@@ -1,0 +1,31 @@
+Hardare:-
+		PC Assemble:-Lov Computer Solution Provides all type computer Normal and Gaming & Servers assemble.
+		Laptop Repair:-Lov Computer Solution provides solved all types problems of laptop in Delhi NCR
+		Motherboard Repair:-Lov Computer Solution provides cheep and best service chip level Motherboard repair.
+		Hardare Periphrals:-Lov Computer solution provides all types computer peripheral devices and product like Computers,Laptops,Printers.
+Networking:-
+		Network Installation:-Lov Computer solution provides local area network setup and troubleshoot network issues and provide secure network in offices and home.
+		Network Support:-Lov Computer Solution provides remotely support and on side support office and home.
+software:-
+		System Software:-Lov Computer Solution provides system softwares like Microsoft Windows all edition and Microsoft Server & Linux Ubuntu.
+		Software installtion:-Lov Computer Solution provides all types application softwares trial and paid like Microsoft Office, Coral Draw, Media players, Browsers and Much Many More.
+		utility software:-Lov Computer Solution provides all kinds of drivers like Graphics, Sound, Chipset, Compression utility, Backup software.
+antivirus:-
+		Antivirus install upgrade & updates:-Lov Computer Solution Provides secure computers it provide regularly updates antiviruses and cleanup  regularly unwanted files and cache.
+		Data Recovery:-Lov Computer Solution provides  all types data recovery like Hard Drive, pendrive important data securely save  with best paid softwares.
+		Pendrive SD-Card Recovery:-Lov Computer Solution provides pendrive and SD card Recovery that important data was delete or corupted we have try data save or virus effected recovery.
+Annual maintainance cost:-
+				AMC:-Lov Computer Solution Provides Annual Maintainance Contract For companies or home best and quick support and well educated and experience engineer.
+				On Site Services:-Lov Computer Solution Provides On Site Support office or home in Delhi NCR.
+printer repair:-
+				Printer repair:-Lov Computer Solution Provides Laser Printer repairing reasonable price and good service.
+				Poner And Catridge Refiling:-Lov Computer Solution Provides on site toner refilling like office or home with best printing.
+
+
+
+1- SELECT service.id,category_table.cat_name,service.service_name,service.description,service.image,service.cat_id FROM service,category_table
+WHERE category_table.status='Y' AND service.status='Y' AND category_table.cat_id = service.cat_id AND service.cat_id
+
+2- SELECT service.id,service.service_name,service.description,service.image,service.cat_id FROM service WHERE service.status='Y'
+
+3- SELECT * FROM service WHERE status='Y'
